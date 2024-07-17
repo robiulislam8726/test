@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Website Banner with Button</title>
+    <style>
+        .flexx{
+         display: flex;
+         justify-content: space-between;
+         margin-right: 10px;
+
+        }
+        @media (max-width: 1200px) {
+          .flexx{
+            display: flex;
+          }
+        }
+          @media (max-width: 570px) {
+          .flexx{
+            display: inline-block;
+            padding: 10px;
+          }
+          h2{
+            color: brown;
+          }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="flexx" >
+        <div class="card card-side bg-base-100 shadow-xl">
+            <figure>
+              <img src="image/333.jpg" alt="Max--internet">
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">インターネット接続設定</h2>
+              <p>開通後、ご利用するパソコンとONU（光回線終端装置）</p>
+              <div class="card-actions justify-end">
+                <a href="max.html" target="_blank"><button class="btn btn-primary">詳細を見る</button>
+                </a>
+              </div>
+            </div>
+        </div>
+        <div class="card card-side bg-base-100 shadow-xl">
+            <figure>
+              <img src="image/otegaruhikari.png" alt="odekaru" width="300px" height="300px">
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">インターネット接続設定</h2>
+              <p>開通後、ご利用するパソコンとONU（光回線終端装置）</p>
+              <div class="card-actions justify-end">
+                <a href="odegaru.html" target="_blank"><button class="btn btn-primary">詳細を見る</button>
+                </a>
+              </div>
+            </div>
+        </div>
+        <div class="card card-side bg-base-100 shadow-xl">
+            <figure>
+              <img src="image/222.jpg" alt="flets--hikari">
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">インターネット接続設定</h2>
+              <p>開通後、ご利用するパソコンとONU（光回線終端装置）</p>
+              <div class="card-actions justify-end">
+                <a href="flet.html" target="_blank"><button class="btn btn-primary">詳細を見る</button>
+                </a>
+              </div>
+            </div>
+        </div>
+    </div>
+   
+    
+</body>
+</html>

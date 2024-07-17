@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        caption{
+            font-size: 30px;
+            color: blue;
+            border: 2px solid green;
+        }
+        .caption1{
+            color: red;
+            font-size: 30px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th{
+            border: 3px solid rgb(12, 12, 12);
+            padding: 5px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <div class="caption">
+            <caption >ネット回線の詳細について。</caption>
+        </div>
+        
+        <thead>
+                <tr class="caption1">
+                    <td colspan="7">おてがる光</td>
+                </tr>
+            
+            <tr>
+                <th>プラン</th>
+                <th>回線速度</th>
+                <th>基本月額利用料</th>
+                <th>プロバイダの特徴</th>
+                <th>キャンペーン情報</th>
+                <th>メリット</th>
+                <th>デメリット</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>おてがる光クロス</td>
+                <td>上がり下り最大概ね10Gbps</td>
+                <td>6,160円</td>
+                <td>・契約期間の縛りなし<br>
+                    ・解約金なし<br>
+                    ・業界最安級</td>
+                <td>
+                    ・IPv6接続＆プロバイダ料金0円
+                </td>
+                <td>・料金が安い<br>
+                    ・違約金がかからない<br>
+                    ・開通工事費は実質無料<br>
+                    ・途中で料金が変動したりしない<br>
+                    ・IPv6高速通信に対応</td>
+                <td>・1年以内に解約すると工事費を一括請求される<br>
+                    ・通信速度に満足できない場合もある<br>
+                    ・スマホとのセット割はなし<br>
+                    ・オプションに自動加入している場合がある</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7" style="text-align: center; font-size: larger;">常時安全セキュリティ24の内容と接続設定の確認ができます。</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
