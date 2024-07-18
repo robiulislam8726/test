@@ -19,7 +19,7 @@ main{
 .features h2{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    color: blue;
+    /* color: blue; */
     text-align: center;
 }
 
